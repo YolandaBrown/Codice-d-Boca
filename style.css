@@ -7,9 +7,10 @@
 }
 
 body {
-     box-sizing: inherit;
+     box-sizing: border-box;
+     background: url(https://grillatqc.com/wp-content/uploads/2016/06/menu-background.jpg) no-repeat;
+     background-size: cover;
 }
-
 .container {
      background-color: white;
      color: rgb(36, 34, 34);
@@ -37,6 +38,8 @@ li {
 
 li a {
 text-decoration: none;
+color: green;
+font-weight: bold;
 }
 
 #hero {
@@ -90,3 +93,9 @@ h3 {
      line-height: 1em;
 }
 
+footer {
+     text-align:center;
+     background-color: #a9a95c;
+     padding: 20px;
+     font-size: 15px;
+}
